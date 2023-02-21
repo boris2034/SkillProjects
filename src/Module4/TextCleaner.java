@@ -11,6 +11,7 @@ public class TextCleaner {
 
         while (matcher.find()) {
             System.out.println(text.substring(matcher.start(), matcher.end()));
+            System.out.println();
         }
     }
 }
