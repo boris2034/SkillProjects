@@ -6,12 +6,11 @@ public class Tank {
     private int dir;
     private int fuel;
     private int n;
-
-    private static String MODEL = "T34";
+    static final String MODEL = "T34";
     static int ntanks;
 
     public Tank() {
-        this(0, 0, 100);
+        this(10, 20, 100);
     }
     public Tank(int x, int y) {
         this(x, y, 100);
