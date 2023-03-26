@@ -24,4 +24,9 @@ class ColorPoint extends Point {
         // Печатаем цвет
         System.out.println("and color " + color);
     }
+
+    public static void main(String[] args) {
+        ColorPoint p = new ColorPoint(1,2, 2);
+        p.print();
+    }
 }

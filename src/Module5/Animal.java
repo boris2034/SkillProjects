@@ -7,11 +7,14 @@ public class Animal {
     public Animal(){
         System.out.println("Creature was created as Animal!");
     }
-    public Animal(boolean veg, String food){
-        this.vegetarian = veg;
-        this.eats = food;
+    public Animal(boolean vegetarian, String eats){
+        this.vegetarian = vegetarian;
+        this.eats = eats;
     }
     public void sound(){
+    }
+    public void printEats() {
+        System.out.println(eats);
     }
 
     public boolean isVegetarian() {
